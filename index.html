@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>A Simple To-Do App</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header flex">
+            <h2>A Simple To-Do App</h2>
+        </div>
+    </header>
+
+    <main class="centered">
+        <section id="to-do-tracker" class="flex">
+
+            <div class="tracker-container flex">
+                <img class="lottie" src="./media/man-to-do-list.gif" />
+                <p>This simple Practice App let's you add and remove tasks to the task board. By (un)-checking the boxes, tasks can be marked as (un)done.</p>
+                <div class="task-input flex">
+                    <input type="text" id="new-task" class="centered" name="task" placeholder="Write your task here">
+                </div>
+                <div class="flex-inline">
+                    <button id="submit">Submit</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <!--JAVASCRIPT FUNCTION STARTS HERE-->
+        <section id="board" class="flex">
+            <h2>Today's Tasks:</h2>
+           <div id="task-board" class="flex">
+                
+            </div>
+        </section>
+        <!--JAVASCRIPT FUNCTION ENDS HERE-->
+
+    </main>
+    </main>
+</body>
+
+</html>

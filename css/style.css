@@ -1,0 +1,130 @@
+/*FONTS IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto&display=swap');
+
+
+/*HELPER CLASSES */
+.centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+/*MAIN STYLING*/
+body {
+    background-color: #5bb3ec9c;
+    margin: 0 auto;
+    font-family: 'Roboto', 'Arial';
+    font-size: 18px;
+    color: black;
+}
+
+main {
+    width: 40%;
+    padding: 2rem 0;
+    border: 0.05rem solid gray;
+    border-radius: 1rem;
+}
+
+header {
+    padding: 1.5rem 0;
+}
+
+
+/*TRACKER CONTAINER STYLING*/
+
+
+.lottie {
+    width: 15rem;
+}
+
+.task-input {
+    margin-top: 2rem;
+}
+
+.tracker-container {
+    width: 70%;
+    text-align: center;
+}
+
+
+/*FORM FIELD STYLING*/
+#new-task {
+    height: 3rem;
+    width: 15rem;
+    border: none;
+    border-bottom: 0.05rem solid;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+#new-task:focus-visible {
+    outline: none;
+}
+
+#submit {
+    display: block;
+    margin-top: 1rem;
+    width: 5rem;
+    background-color: black;
+    color: white;
+}
+
+#reset {
+    display: block;
+    margin-top: 1rem;
+    width: 5rem;
+    margin-left: 0.5rem;
+}
+
+
+
+/*TASK BOARD STYLING*/
+#board{
+    margin-top: 2rem;
+}
+
+#task-board {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+#checkbox {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 1rem;
+}
+
+input[type=checkbox] {
+    accent-color: green;
+  }
+
+#delete-button {
+    width: 1.2rem;
+    margin-left: 1rem;
+    float: right;
+    position: relative;
+    float: right;
+}
+
+/*SINGLE TASK STYLING*/
+#task {
+    width: 20rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
