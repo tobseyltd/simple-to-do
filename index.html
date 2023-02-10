@@ -2,51 +2,49 @@
 
 <html>
 
-<head>
-    <title>A Simple To-Do App</title>
+    <head>
+        <title>A Simple To-Do App</title>
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/script.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
-</head>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/script.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <div class="header flex">
-            <h1>A Simple To-Do App</h1>
-        </div>
-    </header>
-
-    <main>
-        <section id="to-do-tracker">
-            <div class="section-container centered">
-                <div class="tracker-container flex">
-                    <img class="lottie" src="./media/man-to-do-list.gif" />
-                    <p>This simple Practice App let's you add and remove tasks to the task board. By (un)-checking the
-                        boxes, tasks can be marked as (un)done.</p>
-                    <div class="task-input flex">
-                        <input type="text" id="new-task" class="centered" name="task"
-                            placeholder="Write your task here">
-                    </div>
-                    <div class="flex-inline">
-                        <button id="submit">Submit</button>
-                        <button id="reset">Reset</button>
-                    </div>
-                </div>
-                <!--JAVASCRIPT FUNCTION STARTS HERE-->
-                <div id="board" class="flex">
-                    <h2>Today's Tasks:</h2>
-                    <div id="task-board" class="flex">
-
-                    </div>
-                </div>
+        <header>
+            <div class="header centered">
+                <h1>A Simple To-Do App</h1>
             </div>
-        </section>
-        <!--JAVASCRIPT FUNCTION ENDS HERE-->
+        </header>
 
-    </main>
+        <main>
+            <section id="to-do-tracker" class="flex">
+                <div class="section-container flex">
 
-</body>
+                    <div class="tracker-container flex">
+                        <img class="lottie" src="./media/man-to-do-list.gif" />
+                        <p>This simple Practice App let's you add and remove tasks to the task board. By (un)-checking the
+                            boxes, tasks can be marked as (un)done.</p>
+                        <div class="task-input">
+                            <input type="text" id="new-task" class="centered" name="task"
+                                placeholder="Write your task here">
+                        </div>
+                        <div class="flex-inline">
+                            <button id="submit">Submit</button>
+                            <button id="reset">Reset</button>
+                        </div>
+                    </div>
 
+                    <!--JAVASCRIPT FUNCTION STARTS HERE-->
+                    <div id="board" class="centered">
+                        <h2>Today's Tasks:</h2>
+                        <div id="task-board" class="flex"></div>
+                    </div>
+                    <!--JAVASCRIPT FUNCTION ENDS HERE-->
+                </div>
+            </section>        
+        </main>
+
+    </body>
 </html>
