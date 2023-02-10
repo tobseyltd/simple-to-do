@@ -10,7 +10,7 @@
 
 .flex {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -30,6 +30,7 @@ body {
     font-size: 18px;
     color: black;
 }
+
 
 header {
     padding: 1.5rem 0;
@@ -141,7 +142,7 @@ input[type=checkbox] {
     }
 
     .section-container {
-        width: 80%;
+        width: 90%;
         padding: none;
     }
 
