@@ -133,13 +133,18 @@ input[type=checkbox] {
     header h1 {
         font-size: 2rem;
     }
+
+    .lottie {
+        width: 25rem;
+    }
     
     .tracker-container {
         width: 100%;
+        font-size: 1.5rem;
     }
 
     .section-container {
-        width: 90;
+        width: 90%;
     }
 }
     
